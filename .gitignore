@@ -1,0 +1,15 @@
+*.exe
+*.svg
+*.lock
+*.vscdb
+*.backup
+*.bak
+# extensions.json
+
+globalStorage/
+history/
+# notes/
+backup/
+workspaceStorage/
+
+profiles/
