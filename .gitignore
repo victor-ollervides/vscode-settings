@@ -13,3 +13,8 @@ backup/
 workspaceStorage/
 
 profiles/
+sync/
+notes/
+
+mcp.json
+chatLanguageModels.json

@@ -1584,7 +1584,7 @@
     //░ Controls whether entries in .gitignore should be parsed and excluded from the Explorer. Similar to "files.exclude".
     "explorer.excludeGitIgnore": false,
     //░ Controls whether to use .gitignore and .ignore files when searching for files.
-    "search.useIgnoreFiles": false,
+    "search.useIgnoreFiles": true,
 
     // Configure `glob patterns` for excluding files and folders in fulltext searches and file search in quick open.
     // To exclude files from the recently opened list in quick open, patterns must be absolute (for example **/node_modules/**).
@@ -1722,4 +1722,5 @@
     "json.schemaDownload.trustedDomains": {
         "https://raw.githubusercontent.com/DavidAnson/markdownlint/": true
     },
+    "editor.minimap.enabled": false,
 }

@@ -720,5 +720,10 @@
         "key": "shift+alt+r",
         "command": "-remote-wsl.revealInExplorer",
         "when": "editorFocus && remoteName == 'wsl'"
+    },
+    {
+        "key": "ctrl+shift+enter",
+        "command": "-markdown-preview-enhanced.runAllCodeChunks",
+        "when": "editorLangId =~ /^(markdown|quarto|prompt|instructions|chatagent|skill)$/"
     }
 ]
