@@ -85,6 +85,19 @@
             "icon": "keyboard",
             "overrideName": true
         },
+        "MINGW64": {
+            "path": "C:\\msys64\\msys2_shell.cmd",
+            "args": [
+                "-defterm",
+                "-here",
+                "-no-start",
+                "-mingw64"
+            ],
+            // "icon": "terminal-bash",
+            // "icon": "symbol-misc",
+            "icon": "terminal",
+            "overrideName": true
+        },
         "Nushell": {
             "path": "nu.exe",
             "args": [],
@@ -108,10 +121,12 @@
     // "terminal.integrated.defaultProfile.windows": "Command Prompt",
     // "terminal.integrated.defaultProfile.windows": "Git Bash",
     // "terminal.integrated.defaultProfile.windows": "Nushell",
+    // "terminal.integrated.defaultProfile.windows": "MINGW64",
     "terminal.integrated.defaultProfile.windows": "pwsh",
     // "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
     // "terminal.integrated.defaultProfile.windows": "MSYS2",
-    "terminal.integrated.defaultProfile.linux": "bash",
+    // "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.defaultProfile.linux": "MINGW64",
     "terminal.integrated.profiles.linux": {
         "bash": {
             "path": "bash",
