@@ -725,5 +725,9 @@
         "key": "ctrl+shift+enter",
         "command": "-markdown-preview-enhanced.runAllCodeChunks",
         "when": "editorLangId =~ /^(markdown|quarto|prompt|instructions|chatagent|skill)$/"
+    },
+    {
+        "key": "shift+c",
+        "command": "copy-path-unixstyle.copyRelativePath"
     }
 ]

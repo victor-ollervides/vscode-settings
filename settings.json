@@ -1097,9 +1097,9 @@
     "editor.hideCursorInOverviewRuler": true,
     "terminal.integrated.cursorBlinking": false,
     "github.copilot.enable": {
-        "*": true,
+        "*": false,
         "plaintext": true,
-        "markdown": false,
+        "markdown": true,
         "scminput": false,
         "yaml": false,
         "typescript": true,
@@ -1654,7 +1654,6 @@
         "editor.defaultFormatter": "ms-vscode.powershell"
     },
     "github.copilot.nextEditSuggestions.enabled": true,
-    "editor.multiCursorModifier": "ctrlCmd",
     "workbench.editor.enablePreview": false,
     "[d2]": {
         "editor.defaultFormatter": "Terrastruct.d2"
